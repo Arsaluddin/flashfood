@@ -1,6 +1,7 @@
 
 .body{
     margin: 0px;
+    
 }
 .navbar{
     /* position: relative; */
@@ -43,4 +44,18 @@
   .left-content h1{
     font-weight: bolder;
     font-size: 50px;
+  }
+  .company{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border-width: 3px 2px; 
+    justify-content: space-evenly;
+    box-shadow: gray 4px 4px 4px 4px;
+  }
+  .company img{
+    padding: 10px;
+    box-shadow: grey 4px 4px 4px 4px;
+    margin-top: 8px;
   }
