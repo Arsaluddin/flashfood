@@ -61,3 +61,34 @@
     margin-bottom: 10px;
     border-radius: 5px;
   }
+  .cards{
+    margin: 100px;
+    border-radius: 20px;
+    background-color: rgba(151, 180, 231, 0);
+  }
+  .card{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    box-shadow: gray 2px 2px 2px 2px;
+    justify-content: space-around;
+    background-color: rgba(141, 103, 178, 0.727);
+    margin-top: 80px;
+    border-radius: 30px;
+  }
+.card-left{
+    margin-top: 100px;
+}
+.reviews{
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  padding: 20px;
+}
+.review{
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(128, 128, 128, 0.426) 1px 1px 1px 1px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
