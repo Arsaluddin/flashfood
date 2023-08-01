@@ -95,3 +95,30 @@
 .app{
   display: flex;
 }
+.people{
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+.desc{
+  display: flex;
+  padding: 50px;
+}
+.desc-cont{
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.desc-cont h2{
+  color: white;
+  font-size: 16px;
+  font: sans-serif;
+  margin-top: 28px;
+}
+.desc-cont div{
+   margin-left: 50px;
+}
+.desc-img img{
+   padding: 30px;
+}
